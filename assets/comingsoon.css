@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(224, 100%, 48%);
+    margin: 0;
+
+}
+
+.text {
+    width: auto;
+}
+
+.text>div {
+    padding: 10vh 0 50px 0;
+    text-align: center;
+    background-size: contain;
+}
+
+span,
+p {
+    font: 50px "Audiowide", sans-serif;
+    color: antiquewhite;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50vh;
+    background: url("/img/undraw_programming_re_kg9v.svg") no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    width: 100%;
+}
+
+footer p {
+    padding: 10vh 0 3vh 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+}
+
+/* Phone */
+@media only screen and (max-width: 600px) {
+
+    span {
+        font-size: 30px;
+    }
+
+    footer span {
+        font-size: 10px;
+    }
+}
